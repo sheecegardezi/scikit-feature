@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score
 
 from skfeature.function.similarity_based import fisher_score
 
-mat = scipy.io.loadmat("../COIL20.mat")
+mat = scipy.io.loadmat("../data/COIL20.mat")
 X=mat['X']
 
 y = mat['Y'][:, 0]
