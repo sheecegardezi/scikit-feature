@@ -60,7 +60,7 @@ def ndfs(X, **kwargs):
         beta = kwargs['beta']
     if 'F0' not in kwargs:
         if 'n_clusters' not in kwargs:
-            print >>sys.stderr, "either F0 or n_clusters should be provided"
+            print("either F0 or n_clusters should be provided")
         else:
             # initialize F
             n_clusters = kwargs['n_clusters']
